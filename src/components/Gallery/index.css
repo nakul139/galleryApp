@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  max-width: 1140px;
+}
+.selected-image {
+  border-radius: 18px;
+}
+.thumbnail-List {
+  display: flex;
+  flex: wrap;
+  list-style: none;
+  padding: 0px;
+}
